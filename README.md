@@ -6,7 +6,7 @@
 
 `curl http://localhost:5000/incomes`
 
-[
+`[
   {
     "amount": 5000.0, 
     "created_at": "2017-11-19T16:08:21.332346", 
@@ -20,10 +20,10 @@
     "type": "TransactionType.INCOME"
   }
 ]
-
+`
 ## 2) View EXPENSE transactions
 
-[
+`[
   {
     "amount": -50.0, 
     "created_at": "2017-11-19T16:08:21.332355", 
@@ -37,7 +37,7 @@
     "type": "TransactionType.EXPENSE"
   }
 ]
-
+`
 
 `curl http://localhost:5000/expenses`
 
